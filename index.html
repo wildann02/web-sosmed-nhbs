@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Media Sosial SMK IT NHBS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<nav class="navbar navbar-dark bg-success">
+  <div class="container">
+    <span class="navbar-brand fw-bold">Media Sosial SMK IT NHBS</span>
+  </div>
+</nav>
+
+<!-- PROFIL -->
+<section class="container my-4">
+  <div class="row align-items-center">
+    <div class="col-4 text-center">
+      <img src="img/foto.jpeg" class="rounded-circle" width="90" height="90">
+    </div>
+    <div class="col-8">
+      <h5 class="mb-1">smkitnhbs</h5>
+      <small class="text-muted d-block mb-2">
+        Galeri Kegiatan & Karya Siswa
+      </small>
+
+      <div class="d-flex justify-content-between text-center">
+        <div><strong>12</strong><br><small>Post</small></div>
+        <div><strong>350</strong><br><small>Followers</small></div>
+        <div><strong>120</strong><br><small>Following</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- GRID CHALLENGE PETANIKODE -->
+<section class="container-fluid px-0">
+  <div class="row g-0 g-md-3">
+
+    <!-- VIDEO 2D -->
+    <div class="col-4">
+      <a data-bs-toggle="modal" data-bs-target="#modal2d">
+        <video class="w-100">
+          <source src="video/2d.mp4" type="video/mp4">
+        </video>
+      </a>
+    </div>
+
+    <!-- VIDEO MODELLING -->
+    <div class="col-4">
+      <a data-bs-toggle="modal" data-bs-target="#modalModel">
+        <video class="w-100">
+          <source src="video/model.mp4" type="video/mp4">
+        </video>
+      </a>
+    </div>
+
+    <!-- VIDEO 3D -->
+    <div class="col-4">
+      <a data-bs-toggle="modal" data-bs-target="#modal3d">
+        <video class="w-100">
+          <source src="video/3d.mp4" type="video/mp4">
+        </video>
+      </a>
+    </div>
+
+    <!-- FOTO KARYA -->
+    <div class="col-4">
+      <a data-bs-toggle="modal" data-bs-target="#modalKarya">
+        <img src="img/karya.jpeg" class="img-fluid">
+      </a>
+    </div>
+
+    <!-- FOTO Uji Kenaikan Kompetensi -->
+    <div class="col-4">
+      <a data-bs-toggle="modal" data-bs-target="#modalukk">
+        <img src="img/ukk.jpeg" class="img-fluid">
+      </a>
+    </div>
+
+    <!-- FOTO DOKUMENTASI -->
+    <div class="col-4">
+      <a data-bs-toggle="modal" data-bs-target="#modalDokumentasi">
+        <img src="img/dokumentasi.jpeg" class="img-fluid">
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= MODAL ================= -->
+
+<!-- MODAL VIDEO 2D -->
+<div class="modal fade" id="modal2d">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+        <video class="w-100" controls>
+          <source src="video/2d.mp4" type="video/mp4">
+        </video>
+        <p class="mt-2 small">
+          🎬 <strong>Proyek Animasi 2D</strong><br>
+          Karya siswa jurusan Animasi 2D & 3D SMK IT NHBS
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL MODELLING -->
+<div class="modal fade" id="modalmodel">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+        <video class="w-100" controls>
+          <source src="video/model.mp4" type="video/mp4">
+        </video>
+        <p class="mt-2 small">
+          🎬 <strong>Proyek Animasi 3D Modelling</strong><br>
+          Karya siswa jurusan Animasi 2D & 3D SMK IT NHBS
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL VIDEO 3D -->
+<div class="modal fade" id="modal3d">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+        <video class="w-100" controls>
+          <source src="video/3d.mp4" type="video/mp4">
+        </video>
+        <p class="small mt-2">
+          🧊 <strong>Animasi 3D Dasar</strong><br>
+          Hasil ukk animasi 3D siswa
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL KARYA -->
+<div class="modal fade" id="modalKarya">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        <img src="img/karya.jpeg" class="img-fluid mb-2">
+        <p class="small">
+          🎨 <strong>Karya DKV</strong><br>
+          Desain poster dan konten visual siswa
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL UJI KOMPETENSI KEJURUAN -->
+<div class="modal fade" id="modalukk">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        <img src="img/ukk.jpeg" class="img-fluid mb-2">
+        <p class="small">
+           <strong>Uji Kompetensi Kejuruan</strong><br>
+          UKK Kelas 12 bekerja sama dengan Studio E&e
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL DOKUMENTASI -->
+<div class="modal fade" id="modalDokumentasi">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        <img src="img/dokumentasi.jpeg" class="img-fluid mb-2">
+        <p class="small">
+          📸 <strong>Dokumentasi Kegiatan</strong><br>
+          Aktivitas pembelajaran siswa di kelas
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="text-center py-3 bg-light">
+  <small>© 2026 Media Sosial SMK IT NHBS</small>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
